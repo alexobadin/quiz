@@ -1,3 +1,14 @@
+.main {
+  height: 136px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center !important;
+}
+
 .hide {
-  display: none;
+  display: none !important;
+}
+
+.shrink {
+  display: inline;
 }
