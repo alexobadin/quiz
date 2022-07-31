@@ -15,7 +15,7 @@
   </head>
   <body>
     <!-- top section -->
-    <div class="intro pt-3 pb-5 bg-white text-center main">
+    <div class="intro bg-white text-center main">
       <div class="container main-cont">
         <h2 class="text-dark display-3 my-4 main-text">const <span class="text-muted">quiz</span> = 'javaScript';</h2>
 
@@ -32,8 +32,8 @@
     </div>
     <!-- quiz section -->
 
-    <div class="quiz py-4 bg-primary">
-      <div class="container px-md-5">
+    <div class="quiz py-4 color">
+      <div class="container px-md-5 pb-5">
         <div class="conditional">
           <h2 class="pb-2 text-white text-center">const <span class="text-info">conditional</span> = 'умова';</h2>
           <img class="img-fluid d-block mx-auto" src="SCR-20220730-req.png" alt="умова" />
@@ -41,158 +41,158 @@
         <form class="quiz-form text-light">
           <div class="my-5">
             <p class="lead font-weight-normal">1. Що таке декремент?</p>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q1" value="A" checked />
-              <label for="" class="form-check-label"> Збільшення на 1</label>
+            <div class="form-check my-2 text-white">
+              <input id="q1" class="dark" type="radio" name="q1" value="A" checked />
+              <label for="q1" class="form-check-label"> Збільшення на 1</label>
             </div>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q1" value="B" />
-              <label for="" class="form-check-label"> Зменшення на 1</label>
+            <div class="form-check my-2 text-white">
+              <input id="1" type="radio" name="q1" value="B" />
+              <label for="1" class="form-check-label"> Зменшення на 1</label>
             </div>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q1" value="C" />
-              <label for="" class="form-check-label"> Сума двох змінних </label>
+            <div class="form-check my-2 text-white">
+              <input id="2" type="radio" name="q1" value="C" />
+              <label for="2" class="form-check-label"> Сума двох змінних </label>
             </div>
           </div>
           <div class="my-5">
             <p class="lead font-weight-normal">2. Якщо змінна знаходиться всередині блоку, чи доступна вона зовні?</p>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q2" value="A" checked />
-              <label for="" class="form-check-label">Ні</label>
+            <div class="form-check my-2 text-white">
+              <input id="3" type="radio" name="q2" value="A" checked />
+              <label for="3" class="form-check-label">Ні</label>
             </div>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q2" value="B" />
-              <label for="" class="form-check-label">Звісно так</label>
+            <div class="form-check my-2 text-white">
+              <input id="4" type="radio" name="q2" value="B" />
+              <label for="4" class="form-check-label">Звісно так</label>
             </div>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q2" value="C" />
-              <label for="" class="form-check-label">Якщо є оператор '!'?</label>
+            <div class="form-check my-2 text-white">
+              <input id="5" type="radio" name="q2" value="C" />
+              <label for="5" class="form-check-label">Якщо є оператор '!'?</label>
             </div>
           </div>
           <div class="my-5">
             <p class="lead font-weight-normal">3. Як поводиться оператор return?</p>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q3" value="A" checked />
-              <label for="" class="form-check-label shrink">
+            <div class="form-check my-2 text-white">
+              <input id="6" type="radio" name="q3" value="A" checked />
+              <label for="6" class="form-check-label shrink">
                 Повторює виконання циклу, якщо умова ще виконується
               </label>
             </div>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q3" value="B" />
-              <label for="" class="form-check-label shrink"> Продовжує виконання без останнього значення</label>
+            <div class="form-check my-2 text-white">
+              <input id="7" type="radio" name="q3" value="B" />
+              <label for="7" class="form-check-label shrink"> Продовжує виконання без останнього значення</label>
             </div>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q3" value="C" />
-              <label for="" class="form-check-label shrink"> Повертає значення та зупиняє виконання функції</label>
+            <div class="form-check my-2 text-white">
+              <input id="8" type="radio" name="q3" value="C" />
+              <label for="8" class="form-check-label shrink"> Повертає значення та зупиняє виконання функції</label>
             </div>
           </div>
           <div class="my-5">
             <p class="lead font-weight-normal">4. Який тип функції може використовуватись до своєї об'яви у коді?</p>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q4" value="A" checked />
-              <label for="" class="form-check-label"> Function Expression</label>
+            <div class="form-check my-2 text-white">
+              <input id="9" type="radio" name="q4" value="A" checked />
+              <label for="9" class="form-check-label"> Function Expression</label>
             </div>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q4" value="B" />
-              <label for="" class="form-check-label"> Function Declaration</label>
+            <div class="form-check my-2 text-white">
+              <input id="11" type="radio" name="q4" value="B" />
+              <label for="11" class="form-check-label"> Function Declaration</label>
             </div>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q4" value="C" />
-              <label for="" class="form-check-label"> Обидві</label>
+            <div class="form-check my-2 text-white">
+              <input id="22" type="radio" name="q4" value="C" />
+              <label for="22" class="form-check-label"> Обидві</label>
             </div>
           </div>
           <div class="my-5">
             <p class="lead font-weight-normal">5 .Як дізнатися довжину масиву?</p>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q5" value="A" checked />
-              <label for="" class="form-check-label"> name(length)</label>
+            <div class="form-check my-2 text-white">
+              <input id="33" type="radio" name="q5" value="A" checked />
+              <label for="33" class="form-check-label"> name(length)</label>
             </div>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q5" value="B" />
-              <label for="" class="form-check-label"> name.length</label>
+            <div class="form-check my-2 text-white">
+              <input id="44" type="radio" name="q5" value="B" />
+              <label for="44" class="form-check-label"> name.length</label>
             </div>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q5" value="C" />
-              <label for="" class="form-check-label"> name{length}</label>
+            <div class="form-check my-2 text-white">
+              <input id="55" type="radio" name="q5" value="C" />
+              <label for="55" class="form-check-label"> name{length}</label>
             </div>
           </div>
           <div class="my-5">
             <p class="lead font-weight-normal">6. З якого числа починаються рахуватись елементи масиву?</p>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q6" value="A" checked />
-              <label for="" class="form-check-label"> 01</label>
+            <div class="form-check my-2 text-white">
+              <input id="66" type="radio" name="q6" value="A" checked />
+              <label for="66" class="form-check-label"> 01</label>
             </div>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q6" value="B" />
-              <label for="" class="form-check-label"> 0</label>
+            <div class="form-check my-2 text-white">
+              <input id="77" type="radio" name="q6" value="B" />
+              <label for="77" class="form-check-label"> 0</label>
             </div>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q6" value="C" />
-              <label for="" class="form-check-label"> 1</label>
+            <div class="form-check my-2 text-white">
+              <input id="88" type="radio" name="q6" value="C" />
+              <label for="88" class="form-check-label"> 1</label>
             </div>
           </div>
           <div class="my-5">
             <p class="lead font-weight-normal">7. Які типи даних можуть зберігатись у масиві?</p>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q7" value="A" checked />
-              <label for="" class="form-check-label"> Змінні</label>
+            <div class="form-check my-2 text-white">
+              <input id="99" type="radio" name="q7" value="A" checked />
+              <label for="99" class="form-check-label"> Змінні</label>
             </div>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q7" value="B" />
-              <label for="" class="form-check-label"> Об'єкти</label>
+            <div class="form-check my-2 text-white">
+              <input id="111" type="radio" name="q7" value="B" />
+              <label for="111" class="form-check-label"> Об'єкти</label>
             </div>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q7" value="C" />
-              <label for="" class="form-check-label"> Будь-які типи даних</label>
+            <div class="form-check my-2 text-white">
+              <input id="222" type="radio" name="q7" value="C" />
+              <label for="222" class="form-check-label"> Будь-які типи даних</label>
             </div>
           </div>
           <div class="my-5">
             <p class="lead font-weight-normal">8. Що робить оператор '!'?</p>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q8" value="A" checked />
-              <label for="" class="form-check-label">Виконує дію в першу чергу</label>
+            <div class="form-check my-2 text-white">
+              <input id="333" type="radio" name="q8" value="A" checked />
+              <label for="333" class="form-check-label">Виконує дію в першу чергу</label>
             </div>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q8" value="B" />
-              <label for="" class="form-check-label"> Змінює значення на 'false'</label>
+            <div class="form-check my-2 text-white">
+              <input id="444" type="radio" name="q8" value="B" />
+              <label for="444" class="form-check-label"> Змінює значення на 'false'</label>
             </div>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q8" value="C" />
-              <label for="" class="form-check-label">Міняє значення на протилежне</label>
+            <div class="form-check my-2 text-white">
+              <input id="555" type="radio" name="q8" value="C" />
+              <label for="555" class="form-check-label">Міняє значення на протилежне</label>
             </div>
           </div>
           <div class="my-5">
             <p class="lead font-weight-normal">9. Який метод видаляє останній елемент масиву?</p>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q9" value="A" checked />
-              <label for="" class="form-check-label">shift()</label>
+            <div class="form-check my-2 text-white">
+              <input id="666" type="radio" name="q9" value="A" checked />
+              <label for="666" class="form-check-label">shift()</label>
             </div>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q9" value="B" />
-              <label for="" class="form-check-label"> pop()</label>
+            <div class="form-check my-2 text-white">
+              <input id="777" type="radio" name="q9" value="B" />
+              <label for="777" class="form-check-label"> pop()</label>
             </div>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q9" value="C" />
-              <label for="" class="form-check-label">push()</label>
+            <div class="form-check my-2 text-white">
+              <input id="888" type="radio" name="q9" value="C" />
+              <label for="888" class="form-check-label">push()</label>
             </div>
           </div>
           <div class="my-5">
             <p class="lead font-weight-normal">10. Як створити новий об'єкт?</p>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q10" value="A" checked />
-              <label for="" class="form-check-label">let objectName = []</label>
+            <div class="form-check my-2 text-white">
+              <input id="999" type="radio" name="q10" value="A" checked />
+              <label for="999" class="form-check-label">let objectName = []</label>
             </div>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q10" value="B" />
-              <label for="" class="form-check-label"> let object = objectName{}</label>
+            <div class="form-check my-2 text-white">
+              <input id="1111" type="radio" name="q10" value="B" />
+              <label for="1111" class="form-check-label"> let object = objectName{}</label>
             </div>
-            <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q10" value="C" />
-              <label for="" class="form-check-label">let objectName = {}</label>
+            <div class="form-check my-2 text-white">
+              <input id="2222" type="radio" name="q10" value="C" />
+              <label for="2222" class="form-check-label">let objectName = {}</label>
             </div>
           </div>
           <div class="text-center">
-            <input type="submit" value="ПІДТВЕРДИТИ" class="btn btn-lg btn-light fw-bold" />
+            <input id="" type="submit" value="ПІДТВЕРДИТИ" class="btn btn-lg btn-light fw-bold" />
           </div>
         </form>
       </div>

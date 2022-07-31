@@ -79,7 +79,7 @@ form.addEventListener('submit', (e) => {
 });
 
 reset.addEventListener('click', () => {
-  resultText.classList.remove('text-danger', 'text-warning');
+  resultText.classList.remove('text-success');
   mainText.classList.remove('hide');
   reset.classList.add('hide');
   conditional.classList.remove('hide');
